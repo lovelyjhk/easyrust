@@ -1,0 +1,10 @@
+[package]
+name = "rusteasy"
+version = "0.1.0"
+edition = "2021"
+author = "ititsam"
+description = "easy rust coding"
+license = "MIT"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]

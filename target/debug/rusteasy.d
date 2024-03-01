@@ -1,0 +1,1 @@
+C:\Users\lovel\OneDrive\Documents\GitHub\easyrust\rusteasy\target\debug\rusteasy.exe: C:\Users\lovel\OneDrive\Documents\GitHub\easyrust\rusteasy\src\main.rs C:\Users\lovel\OneDrive\Documents\GitHub\easyrust\rusteasy\src\var_2_1.rs

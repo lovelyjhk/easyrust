@@ -1,4 +1,5 @@
 
+Step 1. Cargo.toml 파일에 EasyRust를 의존성으로 추가합니다:
 ```markdown
 # easyrust
 
@@ -7,7 +8,6 @@ rust에 대해서 배우는 easyrust 입니다.
 
 ## 설치(install)
 
-Step 1. Cargo.toml 파일에 EasyRust를 의존성으로 추가합니다:
 
 아래 내용을 toml 파일에 추가합니다. add below in your toml file 
 ```toml

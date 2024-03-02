@@ -1,1 +1,0 @@
-C:\Users\lovel\OneDrive\Documents\GitHub\easyrustv1\target\package\easyrustv1-0.1.0\target\debug\easyrustv1.exe: C:\Users\lovel\OneDrive\Documents\GitHub\easyrustv1\target\package\easyrustv1-0.1.0\src\main.rs

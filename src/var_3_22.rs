@@ -12,7 +12,7 @@ impl<T> Deref for MyBox<T> {
     }
 }
 
-fn main() {
+pub fn var_3_22() {
     let x = 5;
     // MyBox를 사용하여 정수 데이터를 감싸기
     let y = MyBox(x);

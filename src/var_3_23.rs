@@ -11,7 +11,7 @@ impl Drop for MyStruct {
     }
 }
 
-fn main() {
+pub fn var_3_23() {
     {
         // 메모리가 정리되는 순간에 Drop 트레이트가 실행됨
         let _obj = MyStruct { data: String::from("Hello, Rust!") };

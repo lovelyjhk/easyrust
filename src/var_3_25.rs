@@ -10,16 +10,15 @@ pub fn var_3_25_1() {
     let immutable_ref = data.borrow();
     println!("불변 참조: {:?}", *immutable_ref);
 
-    // 가변 참조를 통해 내부 값을 변경하고 출력
-    {
-        let mut mutable_ref = data.borrow_mut();
+    // try_borrow_mut을 사용하여 불변 참조가 있는지 확인한 후에 가변 참조를 시도함
+    if let Ok(mut mutable_ref) = data.try_borrow_mut() {
         mutable_ref.push(4);
         println!("가변 참조: {:?}", *mutable_ref);
-    }
-
-    // 불변 참조를 다시 사용하여 값을 출력
-    println!("불변 참조: {:?}", *immutable_ref);
+    } else {
+        println!("불변 참조가 이미 존재하여 가변 참조를 얻을 수 없습니다.");
+    };
 }
+
 
 
  //2. 내부 가변성 패턴을 적용한 데이터 구조 설계 실습

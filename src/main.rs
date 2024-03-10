@@ -52,6 +52,11 @@ pub mod var_3_17;
 pub mod var_3_18;
 pub mod var_3_19;
 pub mod var_3_20;
+pub mod var_3_21;
+pub mod var_3_22;
+pub mod var_3_23;
+pub mod var_3_24;
+pub mod var_3_25;
 
 //use crate::var_3_5::var_3_5;
 
@@ -112,7 +117,7 @@ fn main(){
     
     var_3_16::test_add(); // cargo test 로 실행 가능 
     var_3_16::test_subtract(); // cargo test 로 실행 가능 
-    */
+    
     var_3_17::var_3_17();
     var_3_18::var_3_18();
     var_3_19::var_3_19();
@@ -121,6 +126,14 @@ fn main(){
     var_3_20::var_3_20_3();
     var_3_20::var_3_20_4();
     var_3_20::var_3_20_5();
-    
+    var_3_21::var_3_21();
+    var_3_22::var_3_22();
+    var_3_23::var_3_23();
+    var_3_24::var_3_24();
+    */
+
+    var_3_25::var_3_25_1();
+    //var_3_25::var_3_25_2();
+
     
 }

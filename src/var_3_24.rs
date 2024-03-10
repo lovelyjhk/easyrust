@@ -1,6 +1,6 @@
 use std::rc::Rc;
 
-fn main() {
+pub fn var_3_24() {
     // Rc 포인터를 사용하여 정수 데이터를 공유하기
     let data = Rc::new(42);
     

@@ -1,0 +1,11 @@
+C:\Users\lovel\OneDrive\Documents\GitHub\easyrustv1\platinum\var_5_2\target\debug\deps\liblibc-05ec41184e9922cb.rmeta: C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.153\src\lib.rs C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.153\src\macros.rs C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.153\src\fixed_width_ints.rs C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.153\src\windows\mod.rs C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.153\src\windows\msvc\mod.rs
+
+C:\Users\lovel\OneDrive\Documents\GitHub\easyrustv1\platinum\var_5_2\target\debug\deps\liblibc-05ec41184e9922cb.rlib: C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.153\src\lib.rs C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.153\src\macros.rs C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.153\src\fixed_width_ints.rs C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.153\src\windows\mod.rs C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.153\src\windows\msvc\mod.rs
+
+C:\Users\lovel\OneDrive\Documents\GitHub\easyrustv1\platinum\var_5_2\target\debug\deps\libc-05ec41184e9922cb.d: C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.153\src\lib.rs C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.153\src\macros.rs C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.153\src\fixed_width_ints.rs C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.153\src\windows\mod.rs C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.153\src\windows\msvc\mod.rs
+
+C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.153\src\lib.rs:
+C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.153\src\macros.rs:
+C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.153\src\fixed_width_ints.rs:
+C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.153\src\windows\mod.rs:
+C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.153\src\windows\msvc\mod.rs:

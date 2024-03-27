@@ -1,0 +1,11 @@
+C:\Users\lovel\OneDrive\Documents\GitHub\easyrustv1\platinum\var_5_2\target\debug\deps\libdotenv-e494f76bc8fa2079.rmeta: C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dotenv-0.15.0\src\lib.rs C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dotenv-0.15.0\src\parse.rs C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dotenv-0.15.0\src\errors.rs C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dotenv-0.15.0\src\iter.rs C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dotenv-0.15.0\src\find.rs
+
+C:\Users\lovel\OneDrive\Documents\GitHub\easyrustv1\platinum\var_5_2\target\debug\deps\libdotenv-e494f76bc8fa2079.rlib: C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dotenv-0.15.0\src\lib.rs C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dotenv-0.15.0\src\parse.rs C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dotenv-0.15.0\src\errors.rs C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dotenv-0.15.0\src\iter.rs C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dotenv-0.15.0\src\find.rs
+
+C:\Users\lovel\OneDrive\Documents\GitHub\easyrustv1\platinum\var_5_2\target\debug\deps\dotenv-e494f76bc8fa2079.d: C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dotenv-0.15.0\src\lib.rs C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dotenv-0.15.0\src\parse.rs C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dotenv-0.15.0\src\errors.rs C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dotenv-0.15.0\src\iter.rs C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dotenv-0.15.0\src\find.rs
+
+C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dotenv-0.15.0\src\lib.rs:
+C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dotenv-0.15.0\src\parse.rs:
+C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dotenv-0.15.0\src\errors.rs:
+C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dotenv-0.15.0\src\iter.rs:
+C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\dotenv-0.15.0\src\find.rs:

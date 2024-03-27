@@ -1,0 +1,17 @@
+workspace = {  }
+[package]
+name = "gold"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.8.5" #var_3_27 에서 사용
+qrcodegen = "1.8.0" # var_3_28 사용
+image = "0.24.9" # var_3_28 사용
+reqwest = { version = "0.11", features = ["blocking"] }  # var_4_1 ,var_4_2
+tokio = { version = "1", features = ["full"] } #var_4_1 var_4_3
+futures = "0.3.17"#var_4_1
+
+

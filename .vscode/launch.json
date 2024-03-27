@@ -1,0 +1,193 @@
+{
+    // IntelliSense를 사용하여 가능한 특성에 대해 알아보세요.
+    // 기존 특성에 대한 설명을 보려면 가리킵니다.
+    // 자세한 내용을 보려면 https://go.microsoft.com/fwlink/?linkid=830387을(를) 방문하세요.
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'bronze'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=bronze",
+                    "--package=bronze"
+                ],
+                "filter": {
+                    "name": "bronze",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'bronze'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=bronze",
+                    "--package=bronze"
+                ],
+                "filter": {
+                    "name": "bronze",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'gold'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=gold",
+                    "--package=gold"
+                ],
+                "filter": {
+                    "name": "gold",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'gold'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=gold",
+                    "--package=gold"
+                ],
+                "filter": {
+                    "name": "gold",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'platinum'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=platinum",
+                    "--package=platinum"
+                ],
+                "filter": {
+                    "name": "platinum",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'platinum'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=platinum",
+                    "--package=platinum"
+                ],
+                "filter": {
+                    "name": "platinum",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'silver'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=silver",
+                    "--package=silver"
+                ],
+                "filter": {
+                    "name": "silver",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'silver'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=silver",
+                    "--package=silver"
+                ],
+                "filter": {
+                    "name": "silver",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'easyrustv1'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=easyrustv1",
+                    "--package=easyrustv1"
+                ],
+                "filter": {
+                    "name": "easyrustv1",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'easyrustv1'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=easyrustv1",
+                    "--package=easyrustv1"
+                ],
+                "filter": {
+                    "name": "easyrustv1",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+[package]
+name = "silver"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.8.5" #var_3_7 에서 사용
+
+num-bigint = "0.4"

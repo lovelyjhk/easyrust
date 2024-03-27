@@ -1,0 +1,12 @@
+C:\Users\lovel\OneDrive\Documents\GitHub\easyrustv1\gold\target\debug\deps\libstate-5256bcd53a11c3bd.rmeta: C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\state-0.6.0\src\lib.rs C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\state-0.6.0\src\ident_hash.rs C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\state-0.6.0\src\cell.rs C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\state-0.6.0\src\init.rs C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\state-0.6.0\src\shim.rs C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\state-0.6.0\src\type_map.rs
+
+C:\Users\lovel\OneDrive\Documents\GitHub\easyrustv1\gold\target\debug\deps\libstate-5256bcd53a11c3bd.rlib: C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\state-0.6.0\src\lib.rs C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\state-0.6.0\src\ident_hash.rs C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\state-0.6.0\src\cell.rs C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\state-0.6.0\src\init.rs C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\state-0.6.0\src\shim.rs C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\state-0.6.0\src\type_map.rs
+
+C:\Users\lovel\OneDrive\Documents\GitHub\easyrustv1\gold\target\debug\deps\state-5256bcd53a11c3bd.d: C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\state-0.6.0\src\lib.rs C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\state-0.6.0\src\ident_hash.rs C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\state-0.6.0\src\cell.rs C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\state-0.6.0\src\init.rs C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\state-0.6.0\src\shim.rs C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\state-0.6.0\src\type_map.rs
+
+C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\state-0.6.0\src\lib.rs:
+C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\state-0.6.0\src\ident_hash.rs:
+C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\state-0.6.0\src\cell.rs:
+C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\state-0.6.0\src\init.rs:
+C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\state-0.6.0\src\shim.rs:
+C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\state-0.6.0\src\type_map.rs:

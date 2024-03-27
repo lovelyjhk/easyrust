@@ -97,7 +97,9 @@ fn main(){
     var_2_31::var_2_31();
     var_2_32::var_2_32();
     var_2_33::var_2_33();
-    var_2_34::var_2_34();
+    var_2_34::var_2_34();// bronze 끝
+
+
     //var_3_1::var_3_1();
     //var_3_2::fix_incorrect_order();
     var_3_3::var_3_3();

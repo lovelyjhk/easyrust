@@ -1,3 +1,4 @@
+workspace = "dd"
 [package]
 name = "easyrustv1"
 version = "0.1.4"

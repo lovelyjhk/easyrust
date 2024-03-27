@@ -1,0 +1,208 @@
+cargo:rerun-if-env-changed=ZSTD_SYS_USE_PKG_CONFIG
+TARGET = Some("x86_64-pc-windows-msvc")
+OPT_LEVEL = Some("0")
+HOST = Some("x86_64-pc-windows-msvc")
+cargo:rerun-if-env-changed=CC_x86_64-pc-windows-msvc
+CC_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CC_x86_64_pc_windows_msvc
+CC_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+DEBUG = Some("true")
+cargo:rerun-if-env-changed=CFLAGS_x86_64-pc-windows-msvc
+CFLAGS_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_pc_windows_msvc
+CFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=CC_x86_64-pc-windows-msvc
+CC_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CC_x86_64_pc_windows_msvc
+CC_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+cargo:rerun-if-env-changed=CFLAGS_x86_64-pc-windows-msvc
+CFLAGS_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_pc_windows_msvc
+CFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=CC_x86_64-pc-windows-msvc
+CC_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CC_x86_64_pc_windows_msvc
+CC_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+cargo:rerun-if-env-changed=CFLAGS_x86_64-pc-windows-msvc
+CFLAGS_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_pc_windows_msvc
+CFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=CC_x86_64-pc-windows-msvc
+CC_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CC_x86_64_pc_windows_msvc
+CC_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+cargo:rerun-if-env-changed=CFLAGS_x86_64-pc-windows-msvc
+CFLAGS_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_pc_windows_msvc
+CFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=CC_ENABLE_DEBUG_OUTPUT
+debug.c
+cargo:warning=cl : 명령줄 warning D9002 : 알 수 없는 '-fvisibility=hidden' 옵션을 무시합니다.
+entropy_common.c
+cargo:warning=cl : 명령줄 warning D9002 : 알 수 없는 '-fvisibility=hidden' 옵션을 무시합니다.
+error_private.c
+cargo:warning=cl : 명령줄 warning D9002 : 알 수 없는 '-fvisibility=hidden' 옵션을 무시합니다.
+fse_decompress.c
+cargo:warning=cl : 명령줄 warning D9002 : 알 수 없는 '-fvisibility=hidden' 옵션을 무시합니다.
+pool.c
+cargo:warning=cl : 명령줄 warning D9002 : 알 수 없는 '-fvisibility=hidden' 옵션을 무시합니다.
+cargo:warning=cl : 명령줄 warning D9002 : 알 수 없는 '-fvisibility=hidden' 옵션을 무시합니다.
+threading.c
+zstd_common.c
+cargo:warning=cl : 명령줄 warning D9002 : 알 수 없는 '-fvisibility=hidden' 옵션을 무시합니다.
+cargo:warning=cl : 명령줄 warning D9002 : 알 수 없는 '-fvisibility=hidden' 옵션을 무시합니다.
+fse_compress.c
+cargo:warning=cl : 명령줄 warning D9002 : 알 수 없는 '-fvisibility=hidden' 옵션을 무시합니다.
+hist.c
+huf_compress.c
+cargo:warning=cl : 명령줄 warning D9002 : 알 수 없는 '-fvisibility=hidden' 옵션을 무시합니다.
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+zstd_compress.c
+exit code: cargo:warning=cl : 명령줄 warning D9002 : 알 수 없는 '-fvisibility=hidden' 옵션을 무시합니다.
+cargo:warning=cl : 명령줄 warning D9002 : 알 수 없는 '-fvisibility=hidden' 옵션을 무시합니다.
+zstd_compress_literals.c
+zstd_compress_sequences.c
+cargo:warning=cl : 명령줄 warning D9002 : 알 수 없는 '-fvisibility=hidden' 옵션을 무시합니다.
+zstd_compress_superblock.c
+cargo:warning=cl : 명령줄 warning D9002 : 알 수 없는 '-fvisibility=hidden' 옵션을 무시합니다.
+zstd_double_fast.c
+cargo:warning=cl : 명령줄 warning D9002 : 알 수 없는 '-fvisibility=hidden' 옵션을 무시합니다.
+zstd_fast.c
+cargo:warning=cl : 명령줄 warning D9002 : 알 수 없는 '-fvisibility=hidden' 옵션을 무시합니다.
+zstd_lazy.c
+cargo:warning=cl : 명령줄 warning D9002 : 알 수 없는 '-fvisibility=hidden' 옵션을 무시합니다.
+cargo:warning=cl : 명령줄 warning D9002 : 알 수 없는 '-fvisibility=hidden' 옵션을 무시합니다.
+zstd_ldm.c
+zstd_opt.c
+cargo:warning=cl : 명령줄 warning D9002 : 알 수 없는 '-fvisibility=hidden' 옵션을 무시합니다.
+zstdmt_compress.c
+cargo:warning=cl : 명령줄 warning D9002 : 알 수 없는 '-fvisibility=hidden' 옵션을 무시합니다.
+0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+huf_decompress.c
+cargo:warning=cl : 명령줄 warning D9002 : 알 수 없는 '-fvisibility=hidden' 옵션을 무시합니다.
+cargo:warning=cl : 명령줄 warning D9002 : 알 수 없는 '-fvisibility=hidden' 옵션을 무시합니다.
+zstd_ddict.c
+zstd_decompress.c
+cargo:warning=cl : 명령줄 warning D9002 : 알 수 없는 '-fvisibility=hidden' 옵션을 무시합니다.
+zstd_decompress_block.c
+cargo:warning=cl : 명령줄 warning D9002 : 알 수 없는 '-fvisibility=hidden' 옵션을 무시합니다.
+cover.c
+cargo:warning=cl : 명령줄 warning D9002 : 알 수 없는 '-fvisibility=hidden' 옵션을 무시합니다.
+cargo:warning=cl : 명령줄 warning D9002 : 알 수 없는 '-fvisibility=hidden' 옵션을 무시합니다.
+divsufsort.c
+fastcover.c
+cargo:warning=cl : 명령줄 warning D9002 : 알 수 없는 '-fvisibility=hidden' 옵션을 무시합니다.
+zdict.c
+cargo:warning=cl : 명령줄 warning D9002 : 알 수 없는 '-fvisibility=hidden' 옵션을 무시합니다.
+zstd_v01.c
+cargo:warning=cl : 명령줄 warning D9002 : 알 수 없는 '-fvisibility=hidden' 옵션을 무시합니다.
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+zstd_v02.c
+exit code: cargo:warning=cl : 명령줄 warning D9002 : 알 수 없는 '-fvisibility=hidden' 옵션을 무시합니다.
+zstd_v03.c
+cargo:warning=cl : 명령줄 warning D9002 : 알 수 없는 '-fvisibility=hidden' 옵션을 무시합니다.
+zstd_v04.c
+cargo:warning=cl : 명령줄 warning D9002 : 알 수 없는 '-fvisibility=hidden' 옵션을 무시합니다.
+zstd_v05.c
+cargo:warning=cl : 명령줄 warning D9002 : 알 수 없는 '-fvisibility=hidden' 옵션을 무시합니다.
+cargo:warning=cl : 명령줄 warning D9002 : 알 수 없는 '-fvisibility=hidden' 옵션을 무시합니다.
+zstd_v06.c
+zstd_v07.c
+cargo:warning=cl : 명령줄 warning D9002 : 알 수 없는 '-fvisibility=hidden' 옵션을 무시합니다.
+0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+cargo:rerun-if-env-changed=AR_x86_64-pc-windows-msvc
+AR_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=AR_x86_64_pc_windows_msvc
+AR_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_AR
+HOST_AR = None
+cargo:rerun-if-env-changed=AR
+AR = None
+cargo:rerun-if-env-changed=ARFLAGS_x86_64-pc-windows-msvc
+ARFLAGS_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=ARFLAGS_x86_64_pc_windows_msvc
+ARFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_ARFLAGS
+HOST_ARFLAGS = None
+cargo:rerun-if-env-changed=ARFLAGS
+ARFLAGS = None
+cargo:rustc-link-search=native=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\atlmfc\lib\x64
+cargo:rustc-link-lib=static=zstd
+cargo:rustc-link-search=native=C:\Users\lovel\OneDrive\Documents\GitHub\easyrustv1\platinum\var_5_2\target\debug\build\zstd-sys-4461b77328a00d18\out
+cargo:root=C:\Users\lovel\OneDrive\Documents\GitHub\easyrustv1\platinum\var_5_2\target\debug\build\zstd-sys-4461b77328a00d18\out
+cargo:include=C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\zstd-sys-2.0.9+zstd.1.5.5\zstd/lib

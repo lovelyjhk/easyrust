@@ -1,0 +1,5 @@
+{
+    "rust-analyzer.linkedProjects": [
+        ".\\platinum\\hello_world\\Cargo.toml"
+    ]
+}

@@ -1,0 +1,10 @@
+C:\Users\lovel\OneDrive\Documents\GitHub\easyrustv1\target\release\deps\librusoto_signature-e0df159dbb94c891.rmeta: C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rusoto_signature-0.48.0\src\lib.rs C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rusoto_signature-0.48.0\src\region.rs C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rusoto_signature-0.48.0\src\signature.rs C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rusoto_signature-0.48.0\src\stream.rs
+
+C:\Users\lovel\OneDrive\Documents\GitHub\easyrustv1\target\release\deps\librusoto_signature-e0df159dbb94c891.rlib: C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rusoto_signature-0.48.0\src\lib.rs C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rusoto_signature-0.48.0\src\region.rs C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rusoto_signature-0.48.0\src\signature.rs C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rusoto_signature-0.48.0\src\stream.rs
+
+C:\Users\lovel\OneDrive\Documents\GitHub\easyrustv1\target\release\deps\rusoto_signature-e0df159dbb94c891.d: C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rusoto_signature-0.48.0\src\lib.rs C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rusoto_signature-0.48.0\src\region.rs C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rusoto_signature-0.48.0\src\signature.rs C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rusoto_signature-0.48.0\src\stream.rs
+
+C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rusoto_signature-0.48.0\src\lib.rs:
+C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rusoto_signature-0.48.0\src\region.rs:
+C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rusoto_signature-0.48.0\src\signature.rs:
+C:\Users\lovel\.cargo\registry\src\index.crates.io-6f17d22bba15001f\rusoto_signature-0.48.0\src\stream.rs:

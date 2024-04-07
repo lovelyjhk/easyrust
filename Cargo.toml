@@ -1,3 +1,4 @@
+workspace = { members = ["platinum/var_4_9/client", "platinum/var_4_9/server"] }
 #workspace = { members = ["platinum/rusto_aws", "submit"] }
 
 [package]

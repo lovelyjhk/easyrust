@@ -1,3 +1,8 @@
+[workspace]
+exclude = [
+    "bronze",
+    # Add other excluded packages here if any
+]
 [package]
 name = "bronze"
 version = "0.1.0"

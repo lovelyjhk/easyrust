@@ -40,7 +40,7 @@ bronze 를 시작하는 예제입니다.
  
     fn main() {
         
-    
+    var_2_8::var_2_8();
     //println!("Hello world!");
     /*
         var_2_1::var_2_1();

@@ -1,6 +1,3 @@
-fn main() {
-    server();
-    client();
+fn main(){
+    
 }
-
-

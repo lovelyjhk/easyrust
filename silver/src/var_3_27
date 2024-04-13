@@ -1,0 +1,34 @@
+use std::rc::Rc;
+use std::cell::RefCell;
+
+struct Node {
+    data: i32,
+    next: Option<Rc<RefCell<Node>>>,
+}
+
+impl Node {
+    fn new(data: i32) -> Rc<RefCell<Node>> {
+        Rc::new(RefCell::new(Node {
+            data,
+            next: None,
+        }))
+    }
+
+    fn set_next(&mut self, next: Rc<RefCell<Node>>) {
+        self.next = Some(next);
+    }
+}
+
+fn main() {
+    // 순환 참조를 일으키는 노드 생성
+    let node1 = Node::new(1);
+    let node2 = Node::new(2);
+
+    // 순환 참조 설정
+    node1.borrow_mut().set_next(Rc::clone(&node2));
+    node2.borrow_mut().set_next(Rc::clone(&node1));
+
+    // 순환 참조가 발생했음을 알림
+    println!("순환 참조가 발생했습니다!");
+}
+

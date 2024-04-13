@@ -1,16 +1,15 @@
-/*
-  13-1. 중복파일 삭제 [유틸리티 제작]
-*/
+use std::collections::hash_map::DefaultHasher;
 use std::fs;
+use std::hash::{Hash, Hasher};
 use std::io::{self, Write};
 use std::path::{Path, PathBuf};
 use std::collections::HashMap;
 
-pub fn var_3_26() -> io::Result<()> {
-    // 중복 파일을 찾을 디렉토리 설정
-    let directory = "C:\\";
+pub fn main() -> io::Result<()> {
+    // 1.중복 파일을 찾을 디렉토리 설정
+    let directory = "E://duplication_test"; // Escape backslashes
 
-    // 중복 파일 찾기
+    // 2.중복 파일 찾기
     let duplicate_files = find_duplicates(directory)?;
 
     // 중복 파일 경로를 파일에 작성
@@ -18,13 +17,14 @@ pub fn var_3_26() -> io::Result<()> {
 
     // 중복 파일 삭제 여부 확인 및 삭제 처리
     if ask_for_deletion() {
-        delete_files(&duplicate_files)?;
-        println!("중복 파일 삭제 완료");
+       delete_files(&duplicate_files)?;
+       println!("중복 파일 삭제 완료");
     }
 
     Ok(())
 }
 
+// 중복을 찾을 함수 
 fn find_duplicates(directory: &str) -> io::Result<HashMap<u64, Vec<PathBuf>>> {
     let mut file_hash_map: HashMap<u64, Vec<PathBuf>> = HashMap::new();
 
@@ -46,8 +46,14 @@ fn find_duplicates(directory: &str) -> io::Result<HashMap<u64, Vec<PathBuf>>> {
 }
 
 fn hash_file(file_path: &Path) -> io::Result<u64> {
+    // Read file content
     let file_content = fs::read(file_path)?;
-    let file_hash = xx_hash::xxh3::hash(&file_content);
+
+    // Compute the hash of the file content
+    let mut hasher = DefaultHasher::new();
+    file_content.hash(&mut hasher);
+    let file_hash = hasher.finish();
+
     Ok(file_hash)
 }
 
@@ -90,4 +96,3 @@ fn delete_files(duplicate_files: &HashMap<u64, Vec<PathBuf>>) -> io::Result<()> 
     println!("삭제된 파일의 총 크기: {} 바이트", total_deleted_size);
     Ok(())
 }
-

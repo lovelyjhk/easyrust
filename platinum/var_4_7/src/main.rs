@@ -52,8 +52,8 @@ fn handle_connection(mut stream: TcpStream) {
 
     //스레드 종료
     println!("Thread 종료중...");
-    //thread::sleep(Duration::from_secs(20));
-   // join_handle::join_handle();
-   // automic_bool::automic_bool();
-   channel::channel();
+    //automic_bool::automic_bool();
+    //channel::channel();
+    //join_handle::join_handle();
+    sleep::sleep(3);
 }

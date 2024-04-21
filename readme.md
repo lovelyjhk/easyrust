@@ -1,6 +1,6 @@
 AWS Lambda Function example
 Build & Deploy
-Step1.
+Step1.\n
 **Install cargo-lambda**
 Step2.
 Build the function with **cargo lambda build --release**

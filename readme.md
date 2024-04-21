@@ -1,11 +1,20 @@
 AWS Lambda Function example
 Build & Deploy
-Step1.\n
+Step1.
+
 **Install cargo-lambda**
+
+
 Step2.
+
+
 Build the function with **cargo lambda build --release**
+
+
 Step3.
+
 Deploy the function to AWS Lambda with **cargo lambda deploy --iam-role YOUR_ROLE**
+
 
 example(** cargo lambda deploy --iam-role arn:aws:iam::905418486995:role/easyrust --binary-name lambdafn** )
 Build for ARM 64
